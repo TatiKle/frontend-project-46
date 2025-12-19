@@ -1,0 +1,28 @@
+{
+  "name": "@tatikle/frontend-project-46",
+  "version": "1.0.0",
+  "description": "Вычислитель отличий - программа, определяющая разницу между двумя структурами данных",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": ["diff", "json", "yaml", "cli"],
+  "author": "TatiKle",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "lodash": "^4.17.21",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jest": "^27.4.0",
+    "jest": "^29.7.0"
+  }
+}
